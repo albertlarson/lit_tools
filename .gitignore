@@ -4,3 +4,4 @@ lit_tools_env/
 zotero_keys.txt
 nltk_data/
 gefis/
+*.pyc

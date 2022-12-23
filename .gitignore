@@ -2,3 +2,5 @@ lit_tools_env/
 .DS_Store
 .ipynb_checkpoints/
 zotero_keys.txt
+nltk_data/
+gefis/

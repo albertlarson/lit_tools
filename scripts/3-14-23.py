@@ -115,7 +115,7 @@ for idx,i in enumerate(X):
         for j in i:
             k = findSimp(prepped_text,j[0],j[1],precede=False)
             if k > 0:
-                print(f'found match 1')
+                print(f'found match')
                 break
         break
 
@@ -123,7 +123,7 @@ for idx,i in enumerate(X):
         for j in i:
             k = findSimp(prepped_text,j[0],j[1],precede=True)
             if k > 0:
-                print('found match 2')
+                print('found match')
                 break
         break
 
@@ -131,6 +131,6 @@ for idx,i in enumerate(X):
         for j in i:
             k = findSuperSimp(prepped_text,j)
             if k > 0:
-                print('found match 3')
+                print('found match')
                 break
         break
